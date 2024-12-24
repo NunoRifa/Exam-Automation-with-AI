@@ -21,12 +21,6 @@ Instal dependensi proyek saya menggunakan npm.
   npm install express multer tesseract.js axios @google/generative-ai
 ```
 
-Untuk memulai.
-
-```bash
-  node server.js
-```
-
 Ubah **YOUR_API_KEY** pada ```server.js``` dengan API yang anda punya.
 
 - ChatGPT AI
@@ -37,4 +31,10 @@ Ubah **YOUR_API_KEY** pada ```server.js``` dengan API yang anda punya.
 - Gemini AI
 ```javascript
   const genAI = new GoogleGenerativeAI("YOUR_API_KEY");
+```
+
+Untuk memulai.
+
+```bash
+  node server.js
 ```
